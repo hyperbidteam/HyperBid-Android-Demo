@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hyperbid_F5F5F5">
+
+    <com.hyperbid.mcsdk.demo.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hyperbid_45dp" />
+
+    <TextView
+        android:id="@+id/tv_topon_debugger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar"
+        android:layout_margin="@dimen/hyperbid_10dp"
+        android:background="@color/hyperbid_FFFFFF"
+        android:padding="@dimen/hyperbid_padding"
+        android:text="@string/hyperbid_topon_debugger"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/hyperbid_title_size" />
+
+    <TextView
+        android:id="@+id/tv_max_debugger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_topon_debugger"
+        android:layout_margin="@dimen/hyperbid_10dp"
+        android:background="@color/hyperbid_FFFFFF"
+        android:padding="@dimen/hyperbid_padding"
+        android:text="@string/hyperbid_max_debugger"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/hyperbid_title_size" />
+
+</RelativeLayout>

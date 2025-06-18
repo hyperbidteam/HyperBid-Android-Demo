@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_sdk_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="@dimen/hyperbid_padding">
+
+        <ImageView
+            android:id="@+id/iv_sdk_logo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_demo_logo" />
+
+        <TextView
+            android:id="@+id/tv_sdk_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/iv_sdk_logo"
+            android:text="@string/hyperbid_sdk_demo"
+            android:textColor="@color/hyperbid_1E2231"
+            android:textSize="@dimen/hyperbid_title_bar_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hyperbid_F5F5F5"
+        android:paddingTop="@dimen/hyperbid_21dp"
+        android:paddingBottom="@dimen/hyperbid_21dp">
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/hyperbid_7dp"
+            android:gravity="center"
+            android:text="@string/hyperbid_sdk_version"
+            android:textColor="@color/hyperbid_A9A9A9"
+            android:textSize="@dimen/hyperbid_11dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_bottom"
+        android:layout_below="@id/rl_sdk_title"
+        android:background="@color/hyperbid_F5F5F5"
+        android:orientation="vertical"
+        android:padding="@dimen/hyperbid_padding">
+
+        <TextView
+            android:id="@+id/tv_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_rewarded_video"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+        <TextView
+            android:id="@+id/tv_inter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hyperbid_10dp"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_interstitial"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+        <TextView
+            android:id="@+id/tv_splash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hyperbid_10dp"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_splash"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+        <TextView
+            android:id="@+id/tv_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hyperbid_10dp"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_banner"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+        <TextView
+            android:id="@+id/tv_native"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hyperbid_10dp"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_native"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+        <TextView
+            android:id="@+id/tv_debugger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hyperbid_10dp"
+            android:background="@drawable/bg_white"
+            android:padding="@dimen/hyperbid_10dp"
+            android:text="@string/hyperbid_title_debugger"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/hyperbid_title_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>

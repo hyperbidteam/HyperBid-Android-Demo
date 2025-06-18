@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hyperbid_F5F5F5">
+
+    <com.hyperbid.mcsdk.demo.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hyperbid_45dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginBottom="@dimen/hyperbid_10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/hyperbid_padding">
+
+            <TextView
+                android:id="@+id/tv_show_log"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/hyperbid_12dp"
+                android:background="@drawable/bg_white"
+                android:fadeScrollbars="false"
+                android:lineSpacingExtra="@dimen/hyperbid_padding_5dp"
+                android:padding="@dimen/hyperbid_10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/hyperbid_1E2231"
+                android:textSize="@dimen/hyperbid_desc_size" />
+
+            <TextView
+                android:id="@+id/banner_load_ad_btn"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hyperbid_45dp"
+                android:layout_below="@id/tv_show_log"
+                android:layout_marginTop="@dimen/hyperbid_18dp"
+                android:text="@string/hyperbid_load_ad" />
+
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:id="@+id/adview_container"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/hyperbid_10dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

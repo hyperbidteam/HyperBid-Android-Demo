@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hyperbid_F5F5F5">
+
+    <com.hyperbid.mcsdk.demo.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hyperbid_45dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:padding="@dimen/hyperbid_padding">
+
+        <include layout="@layout/include_log_area" />
+
+        <include layout="@layout/include_btn" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hyperbid_F5F5F5"
+        android:visibility="invisible">
+
+        <FrameLayout
+            android:id="@+id/adview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/hyperbid_10dp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<!--
+  ~ Copyright © 2018-2020 TopOn. All rights reserved.
+  ~ https://www.toponad.com
+  ~ Licensed under the TopOn SDK License Agreement
+  ~ https://github.com/toponteam/TopOn-Android-SDK/blob/master/LICENSE
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="style_btn">
+        <item name="android:textSize">@dimen/hyperbid_title_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_btn</item>
+        <item name="android:background">@drawable/selector_bg_1</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+</resources>

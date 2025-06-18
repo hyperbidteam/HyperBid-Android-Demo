@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HyperBid Android Demo</string>
+    <string name="hyperbid_sdk_demo">HyperBid Sdk Demo</string>
+    <string name="hyperbid_tools">HyperBid Tools</string>
+
+    <string name="hyperbid_title_rewarded_video">Rewarded Video</string>
+    <string name="hyperbid_title_interstitial">Interstitial</string>
+    <string name="hyperbid_title_splash">Splash</string>
+    <string name="hyperbid_title_banner">Banner</string>
+    <string name="hyperbid_title_native">Native</string>
+    <string name="hyperbid_title_debugger">Mediation Debugger</string>
+
+    <string name="hyperbid_native_self">Native SelfRender</string>
+    <string name="hyperbid_native_express">Native Express</string>
+
+    <string name="hyperbid_topon_debugger">TopOn Mediation Debugger</string>
+    <string name="hyperbid_max_debugger">Max Mediation Debugger</string>
+
+    <string name="hyperbid_load_ad">Load Ad</string>
+    <string name="hyperbid_is_ad_ready">Is Ad Ready</string>
+    <string name="hyperbid_show_ad">Show Ad</string>
+
+    <string name="hyperbid_sdk_version">HyperBid SDK: %s</string>
+    <string name="hyperbid_ad_status_loading">loadAd</string>
+    <string name="hyperbid_ad_status_not_load">ad is not load.</string>
+</resources>
