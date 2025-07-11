@@ -256,6 +256,8 @@ public class NativeAdActivity extends BaseActivity implements View.OnClickListen
                 .setMediaContentViewGroupId(R.id.media_view_container)  //ViewGroup
                 .setOptionsContentViewGroupId(R.id.options_view)        //ViewGroup
                 .setCallToActionButtonId(R.id.cta_button)               //Button
+//                .setWarningViewId(R.id.body_warn_view)  (Only Yandex need) //TextView
+//                .setSponserViewId(R.id.body_spon_view)  (Only Yandex need) //TextView
                 .build();
         return new MCNativeAdView(binder, this);
     }
